@@ -86,4 +86,4 @@ Energy-wall/
 
 ## 10. Auteur
 
-Ahmed Ndery — Master 2 IA. Licence MIT.
+Pape Ahmed FALL — Master 2 IA. Licence MIT.

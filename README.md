@@ -1,89 +1,89 @@
-# Energy Wall — L'IA face au mur énergétique
+# Energy Wall — AI and the Energy Wall
 
-Projet de Master 2 IA. Analyse prospective de la consommation d'énergie, des émissions et de l'eau liées à l'IA, avec trois scénarios chiffrés (2027, 2030, 2035) et trois recommandations pour un décideur public.
+Master 2 AI project. A forward-looking analysis of the electricity, greenhouse-gas and water footprint of AI, with three quantified scenarios (2027, 2030, 2035) and three recommendations for a public decision-maker.
 
-> Statut : en construction. Rendu prévu le 2 novembre 2026.
+> Status: work in progress. Submission due on 2 November 2026.
 
-## 1. Contexte et question posée
+## 1. Context and research question
 
-*(À rédiger — phase 1)* Décembre 2029 : une coupure d'électricité paralyse un train. L'IA en est-elle responsable ? Peut-elle aider ? Quel est le coût pour la planète ? Ce projet répond à ces questions à l'aide d'une veille sourcée et d'un modèle de projection.
+*(To be written — phase 1)* December 2029: a power outage stops a train. Is AI responsible? Can it help? What does it cost the planet? This project answers these questions with a sourced technology watch and a projection model.
 
-## 2. Les 3 métriques clés
+## 2. The 3 key metrics
 
-| Métrique | Unité | Pourquoi |
+| Metric | Unit | Why it matters |
 | --- | --- | --- |
-| Consommation d'électricité | TWh/an | Mesure le « mur » énergétique |
-| Émissions de gaz à effet de serre | MtCO2e/an | Mesure l'impact climatique (GHG Protocol) |
-| Consommation d'eau | millions de m3/an | Mesure l'impact sur les ressources |
+| Electricity consumption | TWh/year | Measures the "energy wall" |
+| Greenhouse-gas emissions | MtCO2e/year | Measures climate impact (GHG Protocol) |
+| Water consumption | million m³/year | Measures pressure on natural resources |
 
-## 3. Périmètre
+## 3. Scope
 
-- Trajectoire et obstacles : monde.
-- Recommandations : France et Europe.
-- Années : base 2024 ; projections 2027, 2030, 2035.
+- Trajectory and obstacles: world.
+- Recommendations: France and Europe.
+- Years: baseline 2024; projections for 2027, 2030 and 2035.
 
-## 4. Veille scientifique, technologique et réglementaire
+## 4. Scientific, technological and regulatory watch
 
-### 4.1 Trajectoire : comment en est-on arrivé là ?
-*(À compléter)*
+### 4.1 Trajectory: how did we get here?
+*(To be completed)*
 
-### 4.2 Obstacles : quels verrous restent à franchir ?
-*(À compléter)*
+### 4.2 Obstacles: which bottlenecks remain?
+*(To be completed)*
 
-### 4.3 Innovations : qu'est-ce qui peut aider ?
-*(À compléter)*
+### 4.3 Innovations: what can help?
+*(To be completed)*
 
-### 4.4 Impact environnemental
-*(À compléter)*
+### 4.4 Environmental impact
+*(To be completed)*
 
-### 4.5 Cadre réglementaire
-*(À compléter : directive efficacité énergétique, AI Act, CSRD)*
+### 4.5 Regulatory framework
+*(To be completed: Energy Efficiency Directive, AI Act, CSRD)*
 
-### 4.6 Bibliographie
-*(Une entrée par source, au format : Auteur, titre, organisme, année, [lien]. Voir `data/sources.csv` et `docs/fiches_veille/`.)*
+### 4.6 Bibliography
+*(One entry per source, formatted as: Author, title, organisation, year, [link]. See `data/sources.csv` and `docs/fiches_veille/`.)*
 
-## 5. Méthode de modélisation
+## 5. Modelling method
 
-*(À rédiger — phase 2)* Chaîne : scaling laws → compute (entraînement et inférence) → énergie (efficacité matérielle, utilisation, PUE) → CO2e (intensité du réseau) → eau (WUE).
+*(To be written — phase 2)* Calculation chain: scaling laws → compute (training and inference) → energy (hardware efficiency, utilisation, PUE) → CO2e (grid carbon intensity) → water (WUE).
 
-## 6. Scénarios
+## 6. Scenarios
 
-*(À rédiger — phase 3)* Pessimiste, normal, optimiste : paramètres, résultats, incertitudes.
+*(To be written — phase 3)* Pessimistic, baseline, optimistic: parameters, results, uncertainty.
 
-## 7. Recommandations
+## 7. Recommendations
 
-*(À rédiger — phase 3)* Trois recommandations actionnables, fiables et stratégiques.
+*(To be written — phase 3)* Three recommendations that are actionable, reliable and strategic.
 
-## 8. Reproduire les résultats
+## 8. Reproducing the results
 
 ```bash
-git clone https://github.com/<votre-compte>/Energy-wall.git
+git clone https://github.com/pape-ahmedfall-code/Energy-wall.git
 cd Energy-wall
 python -m venv .venv
-source .venv/bin/activate        # Windows : .venv\Scripts\activate
+source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 jupyter notebook notebooks/energy_wall.ipynb
 ```
 
-Dans le notebook : *Kernel → Restart & Run All*.
+In the notebook: *Kernel → Restart & Run All*.
 
-## 9. Structure du dépôt
+## 9. Repository structure
 
 ```
 Energy-wall/
-├── README.md                  veille, méthode, résultats
-├── requirements.txt           dépendances Python
+├── README.md                  watch, method, results
+├── requirements.txt           Python dependencies
 ├── data/
-│   ├── sources.csv            tous les chiffres sourcés (valeur, unité, année, source)
-│   ├── raw/                   données brutes téléchargées
-│   └── processed/             données nettoyées
+│   ├── sources.csv            every sourced figure (value, unit, year, source)
+│   ├── raw/                   downloaded raw data
+│   └── processed/             cleaned data
 ├── notebooks/
 │   └── energy_wall.ipynb
-├── figures/                   graphiques exportés
-├── docs/fiches_veille/        fiches de lecture par source
-└── presentation/              présentation finale (PPTX et PDF)
+├── figures/                   exported charts
+├── docs/fiches_veille/        reading notes, one per source
+└── presentation/              final presentation (PPTX and PDF)
 ```
 
-## 10. Auteur
+## 10. Author
 
-Pape Ahmed FALL — Master 2 IA. Licence MIT.
+Pape Ahmed FALL — Master 2 AI. MIT licence.

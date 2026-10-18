@@ -1,0 +1,19 @@
+Identifiants à coller dans Zotero (baguette magique « Ajouter un document par son identifiant ») :
+
+10.1126/science.aba3758
+10.71468/P1WC7Q
+10.1609/aaai.v34i09.7123
+10.1145/3630106.3658542
+arXiv:2203.15556
+arXiv:2001.08361
+arXiv:2104.10350
+arXiv:2304.03271
+
+Pages web (avec le Zotero Connector du navigateur, ou « Ajouter un document par son identifiant » avec l'adresse) :
+
+https://www.iea.org/reports/energy-and-ai
+https://theshiftproject.org/app/uploads/2025/09/Rapport-final-IA-OK.pdf
+https://www.arcep.fr/cartes-et-donnees/nos-publications-chiffrees/impact-environnemental/enquete-annuelle-pour-un-numerique-soutenable-edition-2025.html
+https://ghgprotocol.org/scope-2-guidance
+https://eur-lex.europa.eu/eli/reg_del/2024/1364/oj
+https://proceedings.neurips.cc/paper_files/paper/2022/hash/c1e2faff6f588870935f114ebe04a3e5-Abstract.html

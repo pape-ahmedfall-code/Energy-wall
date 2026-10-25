@@ -1,1 +1,16 @@
-id,indicateur,valeur,unite,annee,perimetre,source,url,type_source,commentaire
+id,indicateur,valeur,unite,annee,perimetre,source,page,url,type_source,commentaire
+SP01,conso_electrique_datacenters_avec_crypto,530,TWh,2023,Monde,The Shift Project (2025),P_13,https://theshiftproject.org/app/uploads/2025/09/Rapport-final-IA-OK.pdf,institutionnelle,phase d'usage; cryptomonnaies incluses
+SP02,conso_electrique_datacenters_hors_crypto,380,TWh,2023,Monde,The Shift Project (2025),22,https://theshiftproject.org/app/uploads/2025/09/Rapport-final-IA-OK.pdf,institutionnelle,phase d'usage; hors cryptomonnaies; l'IEA retient 361 TWh d'après ce rapport
+SP03,projection_conso_datacenters_min,1250,TWh,2030,Monde,The Shift Project (2025),P_21,https://theshiftproject.org/app/uploads/2025/09/Rapport-final-IA-OK.pdf,institutionnelle,scénario sans infléchissement; borne basse de la fourchette
+SP04,projection_conso_datacenters_max,1500,TWh,2030,Monde,The Shift Project (2025),P_21,https://theshiftproject.org/app/uploads/2025/09/Rapport-final-IA-OK.pdf,institutionnelle,scénario sans infléchissement; borne haute de la fourchette
+SP05,projection_conso_datacenters_min,2250,TWh,2035,Monde,The Shift Project (2025),P_21,https://theshiftproject.org/app/uploads/2025/09/Rapport-final-IA-OK.pdf,institutionnelle,même scénario; borne basse
+SP06,projection_conso_datacenters_max,3000,TWh,2035,Monde,The Shift Project (2025),P_21,https://theshiftproject.org/app/uploads/2025/09/Rapport-final-IA-OK.pdf,institutionnelle,même scénario; borne haute
+SP07,emissions_directes_datacenters_min,630,MtCO2e,2030,Monde,The Shift Project (2025),13,https://theshiftproject.org/app/uploads/2025/09/Rapport-final-IA-OK.pdf,institutionnelle,émissions directes de la filière; borne basse; jusqu'à 2 fois les émissions de la France
+SP08,emissions_directes_datacenters_max,920,MtCO2e,2030,Monde,The Shift Project (2025),13,https://theshiftproject.org/app/uploads/2025/09/Rapport-final-IA-OK.pdf,institutionnelle,émissions directes de la filière; borne haute; jusqu'à 2 fois les émissions de la France
+SP09,plafond_absolu_conso_datacenters,1000,TWh/an,2050,Monde,The Shift Project (2025),15,https://theshiftproject.org/app/uploads/2025/09/Rapport-final-IA-OK.pdf,institutionnelle,maximum absolu à ne pas franchir selon les auteurs; trajectoire de -90 % d'émissions entre 2020 et 2050
+SP10,taux_croissance_annuel_moyen_observe,12.8,%/an,2018-2023,Monde,The Shift Project (2025),24,https://theshiftproject.org/app/uploads/2025/09/Rapport-final-IA-OK.pdf,institutionnelle,scénario conservatif (Figure 10); taux maintenu constant dans la projection
+SP11,conso_electrique_datacenters_hors_crypto_iea,361,TWh,2023,Monde,IEA (2025a) cité par The Shift Project (2025),22,https://theshiftproject.org/app/uploads/2025/09/Rapport-final-IA-OK.pdf,institutionnelle,chiffre cité de seconde main; à vérifier dans le rapport de l'IEA
+SP12,borne_haute_conso_datacenters_stated_policies,200,TWh/an,2050,Monde,The Shift Project (2025),15,https://theshiftproject.org/app/uploads/2025/09/Rapport-final-IA-OK.pdf,institutionnelle,scénario Stated Policies; répartition utilisation/fabrication 90/10; borne haute
+SP13,borne_haute_conso_datacenters_decarbone,950,TWh/an,2050,Monde,The Shift Project (2025),15,https://theshiftproject.org/app/uploads/2025/09/Rapport-final-IA-OK.pdf,institutionnelle,électricité à 25 gCO2/kWh en 2050; répartition 95/5; borne haute
+
+

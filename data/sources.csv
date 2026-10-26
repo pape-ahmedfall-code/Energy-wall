@@ -13,4 +13,62 @@ SP11,conso_electrique_datacenters_hors_crypto_iea,361,TWh,2023,Monde,IEA (2025a)
 SP12,borne_haute_conso_datacenters_stated_policies,200,TWh/an,2050,Monde,The Shift Project (2025),15,https://theshiftproject.org/app/uploads/2025/09/Rapport-final-IA-OK.pdf,institutionnelle,scénario Stated Policies; répartition utilisation/fabrication 90/10; borne haute
 SP13,borne_haute_conso_datacenters_decarbone,950,TWh/an,2050,Monde,The Shift Project (2025),15,https://theshiftproject.org/app/uploads/2025/09/Rapport-final-IA-OK.pdf,institutionnelle,électricité à 25 gCO2/kWh en 2050; répartition 95/5; borne haute
 
-
+IEA01,conso_electrique_datacenters,415,TWh,2024,Monde,IEA (2025),14,https://www.iea.org/reports/energy-and-ai,institutionnelle,environ 1.5 % de l'électricité mondiale
+IEA02,part_conso_electrique_mondiale_datacenters,1.5,%,2024,Monde,IEA (2025),14,https://www.iea.org/reports/energy-and-ai,institutionnelle,
+IEA03,part_conso_mondiale_datacenters,45,%,2024,États-Unis,IEA (2025),14,https://www.iea.org/reports/energy-and-ai,institutionnelle,part de la consommation mondiale des centres de données
+IEA04,part_conso_mondiale_datacenters,25,%,2024,Chine,IEA (2025),14,https://www.iea.org/reports/energy-and-ai,institutionnelle,part de la consommation mondiale des centres de données
+IEA05,part_conso_mondiale_datacenters,15,%,2024,Europe,IEA (2025),14,https://www.iea.org/reports/energy-and-ai,institutionnelle,part de la consommation mondiale des centres de données
+IEA06,croissance_annuelle_conso_datacenters,12,%/an,2017-2024,Monde,IEA (2025),14,https://www.iea.org/reports/energy-and-ai,institutionnelle,plus de 4 fois plus vite que la consommation totale d'électricité
+IEA07,investissement_mondial_datacenters,500,milliards USD,2024,Monde,IEA (2025),14,https://www.iea.org/reports/energy-and-ai,institutionnelle,a presque doublé depuis 2022
+IEA08,projection_conso_datacenters_cas_de_base,945,TWh,2030,Monde,IEA (2025),14,https://www.iea.org/reports/energy-and-ai,institutionnelle,environ; un peu plus que la consommation d'électricité du Japon
+IEA09,projection_conso_datacenters_cas_de_base,1200,TWh,2035,Monde,IEA (2025),14,https://www.iea.org/reports/energy-and-ai,institutionnelle,environ; incertitudes plus fortes après 2030
+IEA10,projection_conso_datacenters_cas_headwinds,700,TWh,2035,Monde,IEA (2025),68,https://www.iea.org/reports/energy-and-ai,institutionnelle,plateau; part inférieure à 2 % de l'électricité mondiale
+IEA11,projection_conso_datacenters_cas_high_efficiency,970,TWh,2035,Monde,IEA (2025),67-68,https://www.iea.org/reports/energy-and-ai,institutionnelle,environ; 2.6 % de l'électricité mondiale; environ 20 % de moins que le cas de base
+IEA12,borne_haute_fourchette_scenarios,1700,TWh,2035,Monde,IEA (2025),15,https://www.iea.org/reports/energy-and-ai,institutionnelle,fourchette de 700 à 1700 TWh selon les cas; le chiffre exact du cas Lift-Off est à relever
+IEA13,pue_cas_high_efficiency,1.13,ratio,2035,Monde,IEA (2025),67-68,https://www.iea.org/reports/energy-and-ai,institutionnelle,PUE agrégé
+IEA14,pue_cas_de_base,1.21,ratio,2035,Monde,IEA (2025),67-68,https://www.iea.org/reports/energy-and-ai,institutionnelle,PUE agrégé
+IEA15,conso_eau_datacenters,560,milliards de litres/an,,Monde,IEA (2025),242,https://www.iea.org/reports/energy-and-ai,institutionnelle,« currently » dans le texte; année à confirmer; équivaut à environ 560 millions de m3
+IEA16,projection_conso_eau_datacenters_cas_de_base,1200,milliards de litres/an,2030,Monde,IEA (2025),242,https://www.iea.org/reports/energy-and-ai,institutionnelle,équivaut à environ 1200 millions de m3
+IEA17,conso_eau_datacenter_hyperscale_100MW,2,millions de litres/jour,,États-Unis,IEA (2025),242,https://www.iea.org/reports/energy-and-ai,institutionnelle,environ 6500 foyers; plus de 60 % d'eau indirecte
+IEA18,part_eau_liee_energie_electricite,67,%,2023,Monde,IEA (2025),242,https://www.iea.org/reports/energy-and-ai,institutionnelle,« about two-thirds » arrondi; part de la consommation d'eau liée à l'énergie primaire et à l'électricité
+IEA19,part_eau_refroidissement_direct,25,%,2023,Monde,IEA (2025),242,https://www.iea.org/reports/energy-and-ai,institutionnelle,« about one-quarter » arrondi; le reste vient de la fabrication des puces
+IEA20,croissance_annuelle_projection_conso_datacenters,15,%/an,2024-2030,Monde,IEA (2025),63,https://www.iea.org/reports/energy-and-ai,institutionnelle,cas de base; plus de 4 fois plus vite que la consommation des autres secteurs
+IEA21,croissance_annuelle_conso_serveurs_accelerres,30,%/an,2024-2030,Monde,IEA (2025),63,https://www.iea.org/reports/energy-and-ai,institutionnelle,cas de base; liée surtout à l'adoption de l'IA
+IEA22,croissance_annuelle_conso_serveurs_conventionnels,9,%/an,2024-2030,Monde,IEA (2025),63,https://www.iea.org/reports/energy-and-ai,institutionnelle,cas de base
+IEA23,part_hausse_nette_conso_serveurs_accelerres,50,%,2024-2030,Monde,IEA (2025),63,https://www.iea.org/reports/energy-and-ai,institutionnelle,« almost half » arrondi; cas de base
+IEA24,part_hausse_nette_conso_serveurs_conventionnels,20,%,2024-2030,Monde,IEA (2025),63,https://www.iea.org/reports/energy-and-ai,institutionnelle,« around 20% »; cas de base
+IEA25,part_hausse_nette_conso_autres_equipements_it,10,%,2024-2030,Monde,IEA (2025),63,https://www.iea.org/reports/energy-and-ai,institutionnelle,« around 10% »; cas de base
+IEA26,part_hausse_nette_conso_refroidissement_et_infrastructures,20,%,2024-2030,Monde,IEA (2025),63,https://www.iea.org/reports/energy-and-ai,institutionnelle,« around 20% »; cas de base
+IEA27,projets_datacenters_a_risque_retard,20,%,,Monde,IEA (2025),15,https://www.iea.org/reports/energy-and-ai,institutionnelle,projets prévus pouvant être retardés si les risques liés au réseau ne sont pas traités
+IEA28,delai_construction_lignes_transport_min,4,années,,Économies avancées,IEA (2025),15,https://www.iea.org/reports/energy-and-ai,institutionnelle,nouvelles lignes de transport
+IEA29,delai_construction_lignes_transport_max,8,années,,Économies avancées,IEA (2025),15,https://www.iea.org/reports/energy-and-ai,institutionnelle,nouvelles lignes de transport
+IEA30,part_projets_usa_dans_grands_clusters,50,%,,États-Unis,IEA (2025),15,https://www.iea.org/reports/energy-and-ai,institutionnelle,centres de données en développement situés dans de grands pôles existants
+IEA31,part_refroidissement_conso_datacenter_min,7,%,,Monde,IEA (2025),53,https://www.iea.org/reports/energy-and-ai,institutionnelle,« about 7% »; centres hyperscale efficaces
+IEA32,part_refroidissement_conso_datacenter_max,30,%,,Monde,IEA (2025),53,https://www.iea.org/reports/energy-and-ai,institutionnelle,« over 30% » donc valeur minimale; centres d'entreprise peu efficaces
+IEA33,production_electricite_datacenters_cas_high_efficiency,1100,TWh,2035,Monde,IEA (2025),92,https://www.iea.org/reports/energy-and-ai,institutionnelle,production et non consommation; plus de 15 % sous le cas de base
+IEA34,production_electricite_datacenters_cas_headwinds,790,TWh,2035,Monde,IEA (2025),92,https://www.iea.org/reports/energy-and-ai,institutionnelle,production et non consommation; plus de 40 % sous le cas de base
+IEA35,production_electricite_datacenters_cas_lift_off,2000,TWh,2035,Monde,IEA (2025),92,https://www.iea.org/reports/energy-and-ai,institutionnelle,« nearly 2 000 »; production et non consommation; 45 % de plus que le cas de base
+IEA36,part_fossiles_production_electricite_datacenters,40,%,2035,Monde,IEA (2025),92,https://www.iea.org/reports/energy-and-ai,institutionnelle,environ; valeur identique dans tous les cas selon le texte
+IEA37,part_fossiles_electricite_additionnelle_cas_de_base,28,%,2024-2035,Monde,IEA (2025),92,https://www.iea.org/reports/energy-and-ai,institutionnelle,cas de base
+IEA38,part_fossiles_electricite_additionnelle_lift_off,50,%,2024-2030,Monde,IEA (2025),92,https://www.iea.org/reports/energy-and-ai,institutionnelle,« nearly 50% » arrondi; cas Lift-Off
+IEA39,conso_electrique_datacenters_total,269,TWh,2020,Monde,IEA (2025),258,https://www.iea.org/reports/energy-and-ai,institutionnelle,tableau annexe
+IEA40,conso_electrique_datacenters_total,361,TWh,2023,Monde,IEA (2025),258,https://www.iea.org/reports/energy-and-ai,institutionnelle,tableau annexe; valeur citée par The Shift Project (2025)
+IEA41,conso_electrique_datacenters_total,416,TWh,2024,Monde,IEA (2025),258,https://www.iea.org/reports/energy-and-ai,institutionnelle,tableau annexe; le texte arrondit à 415
+IEA42,projection_conso_cas_de_base,946,TWh,2030,Monde,IEA (2025),258,https://www.iea.org/reports/energy-and-ai,institutionnelle,tableau annexe; le texte arrondit à 945
+IEA43,projection_conso_cas_de_base,1193,TWh,2035,Monde,IEA (2025),258,https://www.iea.org/reports/energy-and-ai,institutionnelle,tableau annexe; note du tableau : « 2035 numbers serve as exploratory scenarios given the high level of uncertainty around data centre demand growth »; le texte arrondit à 1200
+IEA44,projection_conso_cas_lift_off,1264,TWh,2030,Monde,IEA (2025),258,https://www.iea.org/reports/energy-and-ai,institutionnelle,tableau annexe
+IEA45,projection_conso_cas_lift_off,1719,TWh,2035,Monde,IEA (2025),258,https://www.iea.org/reports/energy-and-ai,institutionnelle,tableau annexe; scénario exploratoire (note du tableau); chiffre rétabli par la somme 626+721+372 (à confirmer dans le PDF)
+IEA46,projection_conso_cas_high_efficiency,792,TWh,2030,Monde,IEA (2025),258,https://www.iea.org/reports/energy-and-ai,institutionnelle,tableau annexe
+IEA47,projection_conso_cas_high_efficiency,972,TWh,2035,Monde,IEA (2025),258,https://www.iea.org/reports/energy-and-ai,institutionnelle,tableau annexe; scénario exploratoire (note du tableau); le texte dit environ 970
+IEA48,projection_conso_cas_headwinds,669,TWh,2030,Monde,IEA (2025),258,https://www.iea.org/reports/energy-and-ai,institutionnelle,tableau annexe
+IEA49,projection_conso_cas_headwinds,707,TWh,2035,Monde,IEA (2025),258,https://www.iea.org/reports/energy-and-ai,institutionnelle,tableau annexe; scénario exploratoire (note du tableau); le texte dit environ 700IEA50,conso_electrique_datacenters_total,57,TWh,2020,Europe,IEA (2025),258,https://www.iea.org/reports/energy-and-ai,institutionnelle,table régionale; page à confirmer
+IEA51,conso_electrique_datacenters_total,66,TWh,2023,Europe,IEA (2025),258,https://www.iea.org/reports/energy-and-ai,institutionnelle,table régionale; page à confirmer
+IEA52,conso_electrique_datacenters_total,68,TWh,2024,Europe,IEA (2025),258,https://www.iea.org/reports/energy-and-ai,institutionnelle,table régionale; page à confirmer
+IEA53,projection_conso_cas_de_base,113,TWh,2030,Europe,IEA (2025),258,https://www.iea.org/reports/energy-and-ai,institutionnelle,table régionale; page à confirmer
+IEA54,conso_electrique_datacenters_total,183,TWh,2024,États-Unis,IEA (2025),258,https://www.iea.org/reports/energy-and-ai,institutionnelle,table régionale; page à confirmer
+IEA55,projection_conso_cas_de_base,426,TWh,2030,États-Unis,IEA (2025),258,https://www.iea.org/reports/energy-and-ai,institutionnelle,table régionale; page à confirmer
+IEA56,conso_electrique_datacenters_total,102,TWh,2024,Chine,IEA (2025),258,https://www.iea.org/reports/energy-and-ai,institutionnelle,table régionale; page à confirmer
+IEA57,projection_conso_cas_de_base,277,TWh,2030,Chine,IEA (2025),258,https://www.iea.org/reports/energy-and-ai,institutionnelle,table régionale; page à confirmer
+IEA58,ecart_estimation_publiee_haute_vs_iea,3,ratio,2023,Monde,IEA (2025),217,https://www.iea.org/reports/energy-and-ai,institutionnelle,estimation la plus haute publiée divisée par l'estimation IEA
+IEA59,ecart_scenario_publie_haut_vs_lift_off,2,ratio,2030,Monde,IEA (2025),217,https://www.iea.org/reports/energy-and-ai,institutionnelle,« close to twice »; scénario le plus haut de la littérature contre le cas Lift-Off
+IEA60,ecart_scenario_publie_haut_vs_bas,7,ratio,2030,Monde,IEA (2025),217,https://www.iea.org/reports/energy-and-ai,institutionnelle,« nearly seven times »; scénario le plus haut contre le plus bas de la littérature

@@ -4,8 +4,8 @@
 - **Type** : rapport institutionnel (groupe de réflexion), méthodologie documentée
 - **Date de publication** : octobre 2025
 - **Questions de recherche concernées** : Q1 (trajectoire), Q3 (obstacles), Q4 (impact)
-- **Parties lues pour cette fiche** : un extrait du rapport? les **Recommandations** », à la page 88, et la **conclusion** n'étaient pas dans l'extrait). À relire en entier dans le PDF.
-- **Biais de la source** : groupe de réflexion qui défend la transition carbone et la modération de la demande. Le cours le dit : un rapport du Shift Project n'est pas neutre. Son périmètre **inclut les cryptomonnaies**, contrairement à celui de l'IEA.
+- **Parties lues pour cette fiche** : un extrait du rapport, les **Recommandations**, à la page 88, et la **conclusion**.
+- **Biais de la source** : groupe de réflexion qui défend la transition carbone et la modération de la demande.
 
 ## Canevas du cours
 
@@ -53,14 +53,14 @@ Le rapport formule **20 recommandations**, organisées en **4 familles de levier
 | 19 | Information et formation | Faire monter la rigueur du débat public sur les promesses et les réalités de l'IA (campagnes d'information, analyses critiques) | Pouvoirs publics ; médias ; sphères académiques |
 | 20 | Information et formation | Organiser un débat citoyen informé sur la place du numérique et de l'IA en 2030 et au-delà | Concertation publique ; médias |
 
-**Précisions des auteurs :** ces recommandations ne sont pas exhaustives et se lisent en complément d'une transformation plus large de l'écosystème numérique (modèles d'affaires fondés sur les volumes, cadre réglementaire, asymétrie d'information, design addictif).
+**Précisions des auteurs : ces recommandations ne sont pas exhaustives et se lisent en complément d'une transformation plus large de l'écosystème numérique (modèles d'affaires fondés sur les volumes, cadre réglementaire, asymétrie d'information, design addictif).
 
 **Pistes à tester pour nos propres recommandations (France et Europe), sans les reprendre telles quelles :** transparence énergétique obligatoire des services d'IA (n° 5 et 6), budget énergie-carbone et trajectoire plafond pour le numérique (n° 13), conditionnement du déploiement des centres de données et études d'impact (n° 14 et 15), mesure fine et publique de la consommation (n° 1 à 3). Chacune devra être défendue avec nos chiffres, avec un coût, un délai et une réponse à l'objection d'un journaliste sceptique.
 
-## Croisement (règle du cours : 2 sources minimum)
+## Croisement 
 
 - **Source qui confirme ou contredit** : IEA (2025) donne 415 TWh en 2024 hors cryptomonnaies et environ 945 TWh en 2030.
-- **Pourquoi l'écart ?** Cryptomonnaies incluses ou non, hypothèses de croissance (12,8 % par an chez The Shift Project), méthode et positionnement (modération de la demande). À expliquer dans le README, section 4.1.
+- **Pourquoi l'écart ?** Cryptomonnaies incluses ou non, hypothèses de croissance (12,8 % par an chez The Shift Project), méthode et positionnement (modération de la demande). 
 
 ## Usage dans le projet
 
@@ -76,16 +76,16 @@ Contrepoint aux projections de l'IEA pour le scénario pessimiste, base des obst
       3. Il existe des solutions numériques qui réduisent des impacts, mais l'IA utilisée dans ces cas est rarement de l'IA générative : on ne peut donc pas justifier les coûts directs de l'IA générative par des gains indirects que rien ne démontre à ce stade.
       4. L'IA est un catalyseur : utilisée sans discernement dans des modes de production linéaires encore fondés sur les énergies fossiles, elle augmente les émissions. Le référentiel AFNOR pour l'IA frugale est une première réponse.
 
-Position finale du rapport : il y a urgence à reconnaître le coût climatique de l'IA générative et à tenir un débat de société informé avant de faire des choix délétères. Les auteurs ajoutent un enjeu de souveraineté : le déploiement de l'IA promu par les acteurs dominants (américains) peut compromettre la transition énergétique et accroître la dépendance numérique et énergétique de la France et de l'Europe.
+**Position finale du rapport** : il y a urgence à reconnaître le coût climatique de l'IA générative et à tenir un débat de société informé avant de faire des choix délétères. Les auteurs ajoutent un enjeu de souveraineté : le déploiement de l'IA promu par les acteurs dominants (américains) peut compromettre la transition énergétique et accroître la dépendance numérique et énergétique de la France et de l'Europe.
 
-Citation candidate pour la fiche (conclusion, p.94) : « Il y a urgence à acter du coût climatique du "phénomène IA générative" et à analyser là où ces dynamiques nous embarqueraient d'un point de vue énergétique. »
+**Citation candidate pour la fiche (conclusion, p.94)** : « Il y a urgence à acter du coût climatique du "phénomène IA générative" et à analyser là où ces dynamiques nous embarqueraient d'un point de vue énergétique. »
 
 ## Position : 
 
 je retiens le rapport du Shift Project comme fiable pour ses constats (opacité des données, risque pour le réseau électrique, intérêt des IA spécialisées), mais je le traite comme un scénario haut exploratoire plutôt que comme une prévision : ses projections 2030 (1 250 à 1 500 TWh) incluent les cryptomonnaies, supposent une croissance sans infléchissement, et s'appuient en partie sur des données de l'IEA elles-mêmes, donc il n'est pas une source indépendante de l'IEA. Pour le scénario central, je m'appuie sur l'IEA (hypothèses contraintes par le réseau et les livraisons de serveurs), et je garde le Shift Project pour le scénario pessimiste et pour l'analyse des leviers.
 
-## Lecture critique : 
+## Lecture critique (biais)
 
-le vocabulaire est engagé (« opacité organisée », « mythe à déconstruire »). Le rapport est un travail de plaidoyer appuyé sur des données, pas une expertise neutre : c'est à nommer comme biais dans la fiche.
+le vocabulaire est engagé (« opacité organisée », « mythe à déconstruire »). Le rapport est un travail de plaidoyer appuyé sur des données, pas une expertise neutre.
 
 

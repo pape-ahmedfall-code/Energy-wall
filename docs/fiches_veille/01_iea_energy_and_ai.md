@@ -4,15 +4,15 @@
 - **Type** : rapport institutionnel
 - **Date de publication** : 2025 (la page lue n'indique pas de date précise, la citation suggérée donne 2025)
 - **Questions de recherche concernées** : Q1 (trajectoire), Q3 (obstacles), Q5 (innovations), Q4 (impact, en partie)
-- **Pages lues pour cette fiche** : le résumé exécutif et la section « Energy demand from AI » du rapport en ligne. 
+- **Pages lues pour cette fiche** : Résumé exécutif, section Energy demand from AI, scénarios (pp. 63, 67-68, 92), eau (p. 242), incertitude (p. 217), tableaux annexes (p. 258). 
 - **Biais de la source** : les scénarios reposent d'abord sur les projections à court terme de l'industrie (livraisons de serveurs), ajustées par l'IEA selon les contraintes de demande et d'offre. L'IEA est une organisation intergouvernementale de l'énergie : perspective de politique énergétique, ni neutre ni militante.
 
 ## Canevas du cours
 
-- **WHAT** — Un rapport sur la demande d'électricité des centres de données et sur le rôle de l'IA dans le système énergétique, avec des projections jusqu'en 2030 et 2035.
+- **WHY** — Le secteur de l'énergie fait face à une incertitude substantielle sur l'évolution de la demande liée à l'IA et aux centres de données (p. 217) ; l'IEA veut donner aux décideurs une base chiffrée sous forme de scénarios.
 - **WHY** — L'incertitude est forte, aussi bien sur la consommation actuelle que sur celle de demain ; l'IEA veut donner aux décideurs une base chiffrée sous forme de scénarios.
 - **HOW** — Approche par scénarios : un cas de base et trois cas de sensibilité (Lift-Off, High Efficiency, Headwinds) qui font varier l'adoption de l'IA, l'efficacité et les contraintes (réseau, chaîne d'approvisionnement).
-- **LIMITS** — L'IEA reconnaît « une incertitude substantielle » sur la consommation actuelle et future. Le chiffre de 415 TWh pour 2024 est une estimation. La part exacte des serveurs d'IA dans la consommation totale n'est pas donnée en valeur absolue dans les pages lues. Les sources de données et la structure du modèle ne sont pas détaillées dans ces pages.
+- **LIMITS** — L'IEA reconnaît une incertitude substantielle sur la demande future (p. 217) et qualifie ses chiffres 2035 de « scénarios exploratoires » (note du tableau, p. 258). Elle relève que les scénarios publiés varient d'un facteur proche de 7 en 2030 et que l'estimation 2023 la plus haute est 3 fois la sienne (p. 217). Le chiffre de 415 TWh pour 2024 est une estimation (416 dans le tableau annexe). Les sources de données et la structure du modèle ne sont pas détaillées dans les pages lues.
 - **QUOTE** — « The energy sector is faced with substantial uncertainty about how the demand outlook for AI and data centres will evolve. » (p. 217) — soit : « Le secteur de l'énergie est confronté à une incertitude substantielle sur l'évolution de la demande liée à l'IA et aux centres de données. »
 
 ## Chiffres clés lus sur les pages d'origine 
@@ -42,10 +42,10 @@
 
 ## Croisement 
 
-- **Source qui confirme ou contredit** : The Shift Project (2025) donne 530 TWh pour 2023, **avec** les cryptomonnaies (380 TWh sans), contre 415 TWh pour 2024 chez l'IEA. En 2030, l'IEA annonce environ 945 TWh contre 1 250 à 1 500 TWh chez The Shift Project.
-- **Pourquoi l'écart ?** Périmètres (cryptomonnaies), années, méthodes et hypothèses de croissance différents. À expliquer dans le README, section 4.1.
-- L’IEA donne environ 12 % par an depuis 2017 (p. 14) et environ 15 % par an prévus de 2024 à 2030 (p. 63). Le calcul de contrôle fonctionne : (945 ÷ 415)^(1/6) donne environ 14,7 % par an. Le Shift Project retient 12,8 % par an de 2018 à 2023. Les deux sources s’accordent sur un ordre de grandeur de 12 à 15 % par an.
-- L’IEA confirme bien 361 TWh en 2023 (page 258), contre 380 TWh pour le Shift Project sans cryptomonnaies.
+- **Source qui confirme ou contredit** : The Shift Project (2025) donne 380 TWh pour 2023 hors cryptomonnaies (530 avec), contre 361 TWh chez l'IEA (p. 258), soit un écart d'environ 5 %. **Attention** : le Shift Project cite le chiffre de l'IEA (p. 22) et compte l'IEA parmi ses sources principales, ce n'est donc pas une confirmation indépendante.
+- En 2030, l'IEA donne 946 TWh (cas de base) et 1 264 TWh (Lift-Off), contre 1 250 à 1 500 TWh chez le Shift Project, cryptomonnaies incluses. L'écart vient du périmètre, des hypothèses de croissance et de la méthode (à expliquer dans le README, section 4.1).
+- Contrôle de cohérence : l'IEA donne environ 12 % par an depuis 2017 (p. 14) et environ 15 % par an prévus de 2024 à 2030 (p. 63). (945 ÷ 415)^(1/6) donne environ 14,7 % par an. Le Shift Project retient 12,8 % par an (2018-2023), mesuré sur le passé.
+- **Vérification indépendante encore à faire** : il nous faut une source non liée à l'IEA (par exemple LBNL 2024) pour appliquer la règle des 2 sources.
 
 ## Usage dans le projet
 
@@ -53,6 +53,4 @@ Base chiffrée de la trajectoire (slides 3 à 5), des scénarios (la structure B
 
 ## Position
 
-Les projections de l’IEA donnent un bon ordre de grandeur de la fourchette (670 à 1 260 TWh en 2030), mais pas une valeur centrale : je les utilise comme bornes de scénarios, pas comme prévision.
-
-
+Les projections de l’IEA donnent un bon ordre de grandeur de la fourchette (670 à 1 260 TWh en 2030), mais pas une valeur centrale : je les utilise comme bornes de scénarios, pas comme prévision et exploratoires pour 2035, comme l’IEA le dit elle-même.

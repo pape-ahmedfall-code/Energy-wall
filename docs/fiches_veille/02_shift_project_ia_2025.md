@@ -24,7 +24,7 @@
 | 1 250 à 1 500 | TWh | 2030 | Monde, scénario sans infléchissement | 21 |
 | 2 250 à 3 000 | TWh | 2035 | Monde, même scénario | 21 |
 | 630 à 920 | MtCO2e | 2030 | Filière, selon les scénarios et le mix électrique | 12 |
-| Environ 1 000 (plafond de soutenabilité, pas une prévision) | TWh | 2030 | Monde | 15 |
+| Environ 1 000 (plafond de soutenabilité, pas une prévision) | TWh | 2050 | Monde | 15 |
 
 ## Recommandations 
 
@@ -53,14 +53,15 @@ Le rapport formule **20 recommandations**, organisées en **4 familles de levier
 | 19 | Information et formation | Faire monter la rigueur du débat public sur les promesses et les réalités de l'IA (campagnes d'information, analyses critiques) | Pouvoirs publics ; médias ; sphères académiques |
 | 20 | Information et formation | Organiser un débat citoyen informé sur la place du numérique et de l'IA en 2030 et au-delà | Concertation publique ; médias |
 
-**Précisions des auteurs : ces recommandations ne sont pas exhaustives et se lisent en complément d'une transformation plus large de l'écosystème numérique (modèles d'affaires fondés sur les volumes, cadre réglementaire, asymétrie d'information, design addictif).
+**Précisions des auteurs** : ces recommandations ne sont pas exhaustives et se lisent en complément d'une transformation plus large de l'écosystème numérique (modèles d'affaires fondés sur les volumes, cadre réglementaire, asymétrie d'information, design addictif).
 
 **Pistes à tester pour nos propres recommandations (France et Europe), sans les reprendre telles quelles :** transparence énergétique obligatoire des services d'IA (n° 5 et 6), budget énergie-carbone et trajectoire plafond pour le numérique (n° 13), conditionnement du déploiement des centres de données et études d'impact (n° 14 et 15), mesure fine et publique de la consommation (n° 1 à 3). Chacune devra être défendue avec nos chiffres, avec un coût, un délai et une réponse à l'objection d'un journaliste sceptique.
 
 ## Croisement 
 
-- **Source qui confirme ou contredit** : IEA (2025) donne 415 TWh en 2024 hors cryptomonnaies et environ 945 TWh en 2030.
-- **Pourquoi l'écart ?** Cryptomonnaies incluses ou non, hypothèses de croissance (12,8 % par an chez The Shift Project), méthode et positionnement (modération de la demande). 
+- **Source qui confirme ou contredit** : l'IEA (2025) donne 361 TWh pour 2023 (p. 258), contre 380 TWh hors cryptomonnaies ici (p. 22), soit environ 5 % d'écart. Le Shift Project utilisant l'IEA comme source, ce n'est pas une confirmation indépendante.
+- **Pourquoi l'écart en 2030 ?** Le Shift Project donne 1 250 à 1 500 TWh (cryptomonnaies incluses) contre 946 TWh (cas de base IEA). Les causes : périmètre, hypothèse de croissance constante de 12,8 % par an, méthode et positionnement (modération de la demande).
+- **Contrôle de cohérence (mon calcul, à vérifier p. 21)** : 530 × 1,128^7 ≈ 1 230 TWh en 2030 et 530 × 1,128^12 ≈ 2 250 TWh en 2035, soit exactement le bas des deux fourchettes. La borne basse serait donc une croissance constante de 12,8 % par an appliquée au total cryptomonnaies incluses. Hors cryptomonnaies, 380 × 1,128^7 ≈ 880 TWh en 2030, **sous** le cas de base IEA (946). Cela remplace ma piste précédente sur Lift-Off, qui était probablement une coïncidence.
 
 ## Usage dans le projet
 
@@ -68,24 +69,19 @@ Contrepoint aux projections de l'IEA pour le scénario pessimiste, base des obst
 
 ## Conclusion du rapport (p. 93-94)
 
-  . Constat de départ : le manque de transparence des acteurs dominants, le manque de granularité et de standardisation des données, et la documentation insuffisante des centres de données existants et des projets (en France et en Europe) rendent difficile toute évaluation chiffrée des impacts énergie-carbone de l'IA générative, même pour les impacts directs.
+**Constat de départ** : le manque de transparence des acteurs dominants, le manque de granularité et de standardisation des données, et la documentation insuffisante des centres de données existants et des projets (en France et en Europe) rendent difficile toute évaluation chiffrée des impacts énergie-carbone de l'IA générative, même pour les impacts directs.
 
-  . Quatre constats que les auteurs jugent nécessaires malgré ces limites :
-      1. L'IA générative aggrave la hausse déjà soutenue de l'empreinte énergie-carbone du numérique ; son usage à grande échelle et indifférencié y joue un rôle central. Les entreprises constatent souvent que des IA spécialisées sont plus efficaces : il faut « déconstruire » le mythe selon lequel il n'y aurait qu'une voie, celle de modèles de fondation gigantesques.
-      2. Elle crée un risque de déstabilisation du système électrique, avéré aux États-Unis et en Irlande (renvois aux chapitres V.C et VIII.A), risque que l'IEA a aussi identifié. Les conflits d'usage avec l'industrie, les transports et le logement sont attendus. Les auteurs proposent d'identifier, au moins en France et en Europe, un budget énergie-carbone pluriannuel pour le numérique.
-      3. Il existe des solutions numériques qui réduisent des impacts, mais l'IA utilisée dans ces cas est rarement de l'IA générative : on ne peut donc pas justifier les coûts directs de l'IA générative par des gains indirects que rien ne démontre à ce stade.
-      4. L'IA est un catalyseur : utilisée sans discernement dans des modes de production linéaires encore fondés sur les énergies fossiles, elle augmente les émissions. Le référentiel AFNOR pour l'IA frugale est une première réponse.
+**Quatre constats que les auteurs jugent nécessaires malgré ces limites :**
 
-**Position finale du rapport** : il y a urgence à reconnaître le coût climatique de l'IA générative et à tenir un débat de société informé avant de faire des choix délétères. Les auteurs ajoutent un enjeu de souveraineté : le déploiement de l'IA promu par les acteurs dominants (américains) peut compromettre la transition énergétique et accroître la dépendance numérique et énergétique de la France et de l'Europe.
+1. L'IA générative aggrave la hausse déjà soutenue de l'empreinte énergie-carbone du numérique ; son usage à grande échelle et indifférencié y joue un rôle central. Les entreprises constatent souvent que des IA spécialisées sont plus efficaces : il faut « déconstruire » le mythe selon lequel il n'y aurait qu'une voie, celle de modèles de fondation gigantesques.
+2. Elle crée un risque de déstabilisation du système électrique, avéré aux États-Unis et en Irlande (chapitres V.C et VIII.A), risque que l'IEA a aussi identifié. Les conflits d'usage avec l'industrie, les transports et le logement sont attendus. Les auteurs proposent d'identifier, au moins en France et en Europe, un budget énergie-carbone pluriannuel pour le numérique.
+3. Il existe des solutions numériques qui réduisent des impacts, mais l'IA utilisée dans ces cas est rarement de l'IA générative : on ne peut pas justifier les coûts directs de l'IA générative par des gains indirects que rien ne démontre à ce stade.
+4. L'IA est un catalyseur : utilisée sans discernement dans des modes de production linéaires encore fondés sur les énergies fossiles, elle augmente les émissions. Le référentiel AFNOR pour l'IA frugale est une première réponse.
 
-**Citation candidate pour la fiche (conclusion, p.94)** : « Il y a urgence à acter du coût climatique du "phénomène IA générative" et à analyser là où ces dynamiques nous embarqueraient d'un point de vue énergétique. »
-
-## Position : 
+## Position
 
 je retiens le rapport du Shift Project comme fiable pour ses constats (opacité des données, risque pour le réseau électrique, intérêt des IA spécialisées), mais je le traite comme un scénario haut exploratoire plutôt que comme une prévision : ses projections 2030 (1 250 à 1 500 TWh) incluent les cryptomonnaies, supposent une croissance sans infléchissement, et s'appuient en partie sur des données de l'IEA elles-mêmes, donc il n'est pas une source indépendante de l'IEA. Pour le scénario central, je m'appuie sur l'IEA (hypothèses contraintes par le réseau et les livraisons de serveurs), et je garde le Shift Project pour le scénario pessimiste et pour l'analyse des leviers.
 
 ## Lecture critique (biais)
 
 le vocabulaire est engagé (« opacité organisée », « mythe à déconstruire »). Le rapport est un travail de plaidoyer appuyé sur des données, pas une expertise neutre.
-
-
